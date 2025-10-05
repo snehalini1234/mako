@@ -1,0 +1,47 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Next.js build
+.next/
+out/
+build/
+dist/
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Cache
+.cache/
+.parcel-cache/
+coverage/
+
+# Misc
+*.pem
+
+# Ignore local Next config if any
+.next.config.js.local
+

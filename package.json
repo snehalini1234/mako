@@ -1,0 +1,13 @@
+{
+  "name": "mako-root",
+  "private": true,
+  "scripts": {
+    "dev": "cd main && npm run dev",
+    "build": "cd main && npm run build",
+    "start": "cd main && npm run start",
+    "vercel-build": "cd main && npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
